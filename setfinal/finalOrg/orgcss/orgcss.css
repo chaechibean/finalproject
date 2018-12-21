@@ -1,0 +1,224 @@
+body,html{
+	height:100%;
+	width:100%;
+
+}
+body{
+	
+	background-color:#B4DBFF;
+	font-family:Karla;
+	color:#3E4E77;
+}
+
+.top {
+	width: 1200px;
+	position: fixed;
+	left: 50%;
+	top: 0px;
+	margin-left: -600px;
+	z-index: 9;
+	background: linear-gradient(to bottom, #06069b 0%,#06069b 37%,#06069b 37%,#4591dd 39%,#4591dd 39%,#4591dd 72%,#deeefd 72%,#deeefd 100%);
+}
+
+.logo{
+	width:100px;
+	height:100px;
+	margin-left:140px;
+	margin-bottom:50px;
+	margin-top:30px;
+}
+
+
+.navText{
+	float:right;
+	width: 800px;
+
+}
+
+
+.width180{
+	float:right;
+	text-align:center;
+	color:white;
+	font-family:Karla;
+	font-size:20pt;
+	font-weight:bold;
+	width: 180px;
+	margin-left: 30px;
+	margin-top:50px;
+}
+.navAnimals{
+	width:120px;
+}
+.currentpage{
+	width:50px;
+	height:10px;
+
+	background-color:white;
+
+	margin-top:12px;
+	margin-left:66px;
+}
+
+
+
+/*--bodybox and border--*/
+.bodyBox{
+	background-color:white;
+	width:1200px;
+	height:1000px;
+	position: absolute;
+	left: 50%;
+	margin-left:-600px;
+	top:200px;
+
+}
+
+.border {
+	width: 1100px;
+	height: 900px;
+	border: solid #B4DBFF 8px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-550px, -450px);
+	padding-top: 50px;
+	padding-left:100px;
+	padding-right:100px;
+	box-sizing: border-box;
+}
+
+
+/*--hover on page animation for world--*/
+.globebar{
+	position:relative;
+	left:85px;
+	top:12px;
+	background-color:white;
+}
+
+.globalwarming:hover .globebar{
+	animation:globebar 0.5s forwards linear;
+}
+
+@keyframes globebar{
+	0%{opacity:0; height:10px; width:0px; left:85px; top:12px;}
+	100%{opacity:1; height:10px; width:65px; left:60px; top:12px;}
+}
+/*--end of hover for around globe--*/
+
+
+/*--hover on page animation for animals--*/
+.antanibar{
+	position:relative;
+	left:60px;
+	top:12px;
+	background-color:white;
+}
+
+.antanimal:hover .antanibar{
+	animation:antanibar 0.5s forwards linear;
+}
+
+@keyframes antanibar{
+	0%{opacity:0; height:10px; width:0px; left:60px; top:12px;}
+	100%{opacity:1; height:10px; width:65px; left:30px; top:12px;}
+}
+
+/*--end of hover for ant animals--*/
+
+.CCL{
+	width:1000px;
+	margin-top:30px;
+}
+
+.CCLlogo{
+	text-align:left;
+	width:100px;
+	font-size:34pt;
+	margin-left:40px;
+	float:left;
+
+}
+
+.CCLinfo{
+	float:right;
+	width:500px;
+	font-size:20pt;
+	margin-right:150px;
+	margin-top:40px;
+}
+
+.sbag{
+	width:1000px;
+	margin-top:280px;
+}
+
+.sbaglogo{
+	text-align:left;
+	width:100px;
+	font-size:34pt;
+	margin-left:40px;
+	float:left;
+	margin-top:30px;
+}
+
+.sbaginfo{
+	float:right;
+	width:520px;
+	font-size:20pt;
+	margin-right:150px;
+
+}
+
+
+.CWR{
+	width:1000px;
+	margin-top:480px;
+}
+
+.CWRlogo{
+	text-align:left;
+	width:100px;
+	font-size:34pt;
+	margin-left:40px;
+	float:left;
+}
+
+.CWRinfo{
+	float:right;
+	width:520px;
+	font-size:20pt;
+	margin-right:150px;
+	margin-top:40px;
+
+}
+/*--paral--*/
+#stage{
+	position:relative;
+	top:1150px;
+	left:-200px;
+	width:1600px;
+	height:300px;
+	overflow:hidden;
+}
+
+.bottomice{
+	position:relative;
+	width:1800px;
+	top:50px;
+	left:-300px;
+
+}
+
+/*--links--*/
+
+a:link {
+  text-decoration: none;
+  color:#3E4E77;
+}
+
+a:visited {
+  text-decoration: none;
+   color:#3E4E77;
+}

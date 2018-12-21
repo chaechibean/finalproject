@@ -1,0 +1,332 @@
+
+
+body,html{
+	height:100%;
+	width:100%;
+
+}
+body{
+	
+	background-color:#B4DBFF;
+	font-family:Karla;
+	color:#3E4E77;
+}
+
+.top {
+	width: 1200px;
+	position: fixed;
+	left: 50%;
+	top: 0px;
+	margin-left: -600px;
+	z-index: 9;
+	background: linear-gradient(to bottom, #06069b 0%,#06069b 37%,#06069b 37%,#4591dd 39%,#4591dd 39%,#4591dd 72%,#deeefd 72%,#deeefd 100%);
+}
+
+.logo{
+	width:100px;
+	height:100px;
+	margin-left:140px;
+	margin-bottom:50px;
+	margin-top:30px;
+}
+
+
+.navText{
+	float:right;
+	width: 800px;
+
+}
+
+
+.width180{
+	float:right;
+	text-align:center;
+	color:white;
+	font-family:Karla;
+	font-size:20pt;
+	font-weight:bold;
+	width: 180px;
+	margin-left: 30px;
+	margin-top:50px;
+}
+.navAnimals{
+	width:120px;
+}
+.currentpage{
+	width:50px;
+	height:10px;
+
+	background-color:white;
+
+	margin-top:12px;
+	margin-left:66px;
+}
+
+/*--stuff on the globe--*/
+.globeNorthpole{
+	position:absolute;
+	top:60px;
+	font-size:20pt;
+}
+.northpoleline{
+	position:absolute;
+	left:130px;
+	top:80px;
+	width:200px;
+	height:3px;
+	background-color:red;
+	transform: rotate(5deg);
+}
+
+.northpolehover{
+	position:relative;
+	left:375px;
+	top:-40px;
+	background-color:red;
+	opacity:0.3;
+	width:150px;
+	height:80px;
+}
+/*--
+.globeNorthpole:hover .northpolehover{
+	opacity:0.7;
+	width:200px;
+	height:100px;
+	left:350px;
+	top:-50px;
+	transition: 1s;
+}
+--*/
+
+.globeNorthpole:hover .northpolehover{
+	animation: northhover 1s forwards linear;
+
+}
+
+@keyframes northhover{
+	0%{width:150px; height:80px; opacity:0.3;}
+	100%{width:200px;height:100px; opacity:0.7; left:350px; top:-60px;}
+}
+
+.globeasia{
+	font-size:20pt;
+	position:absolute;
+	top:200px;
+	left:50px;
+}
+
+.asialine{
+	position:absolute;
+	left:90px;
+	width:180px;
+	height:3px;
+	top:110px;
+	background-color:red;
+	transform: rotate(7deg);
+}
+
+.asiahover{
+	position:relative;
+	left:250px;
+	top:-20px;
+	background-color:red;
+	opacity:0.3;
+	width:100px;
+	height:80px;
+}
+
+.globeasia:hover .asiahover{
+	animation: asiahover 1s forwards linear;
+}
+
+@keyframes asiahover{
+	0%{width:100px; height:80px;}
+	100%{width:180px; height:140px; opacity: 0.7; top:-70px; left:230px;}
+}
+
+.globeaus{
+	font-size:20pt;
+	position:absolute;
+	top:450px;
+	left:100px;
+}
+
+.ausline{
+	position:absolute;
+	left:155px;
+	width:150px;
+	height:3px;
+	top:20px;
+	background-color:red;
+	transform: rotate(-15deg);
+}
+
+.aushover{
+	position:relative;
+	left:320px;
+	top:-140px;
+	background-color:red;
+	opacity:0.3;
+	width:100px;
+	height:100px;
+}
+.globeaus:hover .aushover{
+	animation: aushover 1s forwards linear;
+}
+@keyframes aushover{
+	0%{width:100px; height:100px;}
+	100%{width:180px; height:180px; opacity: 0.7; top:-180px; left:280px;}
+}
+
+.globeaf{
+	font-size:20pt;
+	position:absolute;
+	top:450px;
+	left:900px;
+}
+
+.afline{
+	position:absolute;
+	left:-140px;
+	width:140px;
+	height:3px;
+	top:-20px;
+	background-color:red;
+	transform: rotate(40deg);
+}
+
+.afhover{
+	position:relative;
+	left:-240px;
+	top:-220px;
+	background-color:red;
+	opacity:0.3;
+	width:120px;
+	height:120px;
+}
+
+.globeaf:hover .afhover{
+	animation: afhover 1s forwards linear;
+}
+
+
+@keyframes afhover{
+	0%{width:120px; height:120px;}
+	100%{width:180px; height:180px; opacity: 0.7; top:-260px; left:-280px;}
+}
+
+
+/*--bodywhitebox--*/
+.bodyBox{
+	background-color:white;
+	width:1200px;
+	height:1700px;
+	position: absolute;
+	left: 50%;
+	margin-left:-600px;
+	top:200px;
+
+}
+
+.border {
+	width: 1100px;
+	height: 1600px;
+	border: solid #B4DBFF 8px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-550px, -800px);
+	padding-top: 50px;
+	padding-left:100px;
+	padding-right:100px;
+	box-sizing: border-box;
+}
+
+
+.globeimg{
+	width:500px;
+	margin-left:200px;
+	margin-top:50px;
+}
+
+
+ul{
+	margin-bottom:50px;
+}
+
+.subinfo{
+	margin-bottom:50px;
+}
+
+/*--hover on page animation for animals--*/
+.antanibar{
+	position:relative;
+	left:60px;
+	top:12px;
+	background-color:white;
+}
+
+.antanimal:hover .antanibar{
+	animation:antanibar 0.5s forwards linear;
+}
+
+@keyframes antanibar{
+	0%{opacity:0; height:10px; width:0px; left:60px; top:12px;}
+	100%{opacity:1; height:10px; width:65px; left:30px; top:12px;}
+}
+
+/*--end of hover for ant animals--*/
+
+/*--hover on page animation for organizations--*/
+.orgbar{
+	position:relative;
+	left:85px;
+	top:12px;
+	background-color:white;
+
+
+}
+	
+.helporg:hover .orgbar{
+	animation: orgbar 0.5s forwards linear;
+}
+
+@keyframes orgbar{
+	0%{opacity:0; height:10px; width:0px; left:85px; top:12px;}
+	100%{opacity:1; height:10px; width:65px; left:60px; top:12px;}
+}
+/*--end of hover for orgnaizations--*/
+ul{
+	list-style:none;
+}
+
+li:before{
+	content:"•";
+	padding-right:8px;
+	color:#B4DBFF;
+	font-size:20px;
+	line-height:20px;
+	margin-top:10px;
+	position:relative;
+	top:2px;
+}
+
+
+/*--paral--*/
+#stage{
+	position:relative;
+	top:1800px;
+	left:-200px;
+	width:1600px;
+	height:300px;
+	overflow:hidden;
+}
+
+.bottomice{
+	position:relative;
+	width:1800px;
+	top:50px;
+	left:-300px;
+
+}
+

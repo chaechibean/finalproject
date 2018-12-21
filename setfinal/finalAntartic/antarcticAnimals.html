@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--css-->
+		<link rel="stylesheet" href="antarcticcss/antarcticcss.css">
+		<!--js-->
+			<script type="text/javascript" src="antarcticjs/jquery-3.3.1.min.js"></script>
+			<script type="text/javascript" src="antarcticjs/parallax.js"></script>
+		<!--font-->
+		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	</head>
+	<body>
+		<div class="top">
+			<a href="../index.html">
+			<img class="logo" src="antarcticimg/PENGUINLOGO.svg">
+			</a>
+			<div class="navText">
+				<a href="../finalOrg/orgindex.html">
+					<div class="width180 helporg">Helpful Organizations
+						<div class="orgbar"></div>
+					</div>
+				</a>
+				<a href="../finalWorld/worldindex.html">
+					<div class="width180 globalwarming">Global Warming
+						<div class="globebar"></div>
+					</div>
+				</a>
+					<div class="navAnimals width180">Antarctic Animals<div class="currentpage"></div></div>
+			</div>
+		</div> <!--end of nav bar-->
+
+		<div class="antarcticImg">
+			<div class="antTitle">
+				<p class="anthead">ANTARCTICA</p>
+				<p class="antSubtext">The disappearing home of the penguins</p>
+			</div>
+			<img class="AntarcticaImg" src="antarcticimg/IceHeader.jpg">
+		</div>
+
+		<div class="bodyBox"><!--start of body and border-->
+			<div class="border">
+				<div>
+					<p class="miniheader">Antartica</p>
+					<p>Antartica is the continent located at the South and is covered with ice and snow that has built up for millions of years.  It is the home of some penguins and fur seals and other animals. This big sheet of ice has been effecting antartica sevearly and we have lost over three trillion tons of ice in  a quater of a century. This leads into raise of sea water, but also the loss of home to animals that live in the arctic. Global warming impacts the penguin’s food supply of krill which is currently leading to decrease of penguin population. </p>
+				</div>
+				<div class="emheader">
+					<p class="miniheader">Emperor Penguins</p>
+					<p>Tallest and heaviest penguin<br>
+						Height: 122cm<br>
+						Weight:22–45kg<br>
+						Primary diet: Krill<br> 
+						Uplisted as near therathened by IUCN<br>
+					</p>
+					<img class="emimg" src="antarcticimg/emperor.jpg">
+				</div>
+				<div class="adelie">
+					<p class="miniheader">Adelie Penguins</p>
+
+					<p>
+						Most widley spread penguin species<br>
+						Height: 46–71cm<br>
+						Weight: 3.6–6.0kg<br>
+						Primary Diet: Krill<br>
+						Population dropped 65% last 25 years<br>
+					</p>
+					<img class="adelimg" src="antarcticimg/adelie.jpg"/>
+				</div>
+			</div> <!-- end of border -->
+		</div> <!-- end of bodyBox -->
+		<div id="stage"><!--startofparal-->
+			<img data-depth="0.6" class="bottomice" src="antarcticimg/bottomice.svg"/>
+		</div>
+		<script>
+			var scene = $('#stage').get(0);
+		var parallaxInstance = new Parallax(scene, {
+			relativeInput: true,});
+		</script>
+		<!--endofparal-->
+	</body>
+</html>

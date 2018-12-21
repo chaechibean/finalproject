@@ -1,0 +1,139 @@
+body,html{
+	width:100%;
+	height:100%
+}
+
+body{
+	background-image: linear-gradient(#030097 5%, #4796DF 25%, #F2F9FF 30%, #F9FCFF 10%, #F2F9FF 30%, #B4DBFF);
+	background-repeat:no-repeat;
+	background-color:#B4DBFF;
+}
+
+img{
+	height:200px;
+	width:200px;
+	margin-left:140px;
+	margin-bottom:100px;
+}
+
+/*--ice positions--*/
+
+.leftbottomice{
+	position:absolute;
+	left:-90px;
+	top:90px;
+	opacity: 0;
+
+	transform: scale(0.5);
+}
+
+.lefttopice{
+	position:absolute;
+	left:-90px;
+	top:70px;
+		opacity: 0;
+	transform: scale(0.5);
+}
+
+.rightbottomice{
+	position:absolute;
+	transform: scale(0.5);
+	left:60px;
+	top:100px;
+	opacity: 0;
+}
+
+.righttopice{
+	position:absolute;
+	left:80px;
+	top:70px;
+	opacity: 0;
+	transform: scale(0.5);
+}
+
+
+
+.main{
+	position:relative;
+	left:50%;
+	top:50%;
+	margin-left:-250px;
+	margin-top:-400px;
+	width:500px;
+	height:800px;
+	transform: scale(0.5);
+
+}
+
+p{
+	text-align:center;
+	font-family: Karla;
+	font-weight: bold;
+	font-size:30pt;
+	color:#3E4E77;
+	margin-bottom:80px;
+}
+
+.line{
+	height:10px;
+	width:100px;
+	background-color:white;
+	margin-top:-20px;
+	margin-left:200px;
+}
+
+a:link{
+ text-decoration: none;
+}
+
+
+
+
+/*--font-family: 'Karla', sans-serif;--*/
+
+/*--animationstuff--*/
+.bar1{
+	position:relative;
+}
+
+.antlink:hover .bar1{
+	animation: bar1ani 0.6s forwards linear;
+}
+
+@keyframes bar1ani{
+	0%{ width:100px; left:0px;}
+	100%{ width:200px; left:-50px;}	
+}
+
+
+.bar2{
+	position: relative;
+}
+
+.globlink:hover .bar2{
+	animation: bar2ani 0.6s forwards linear;
+}
+
+@keyframes bar2ani{
+	0%{ width:100px; left:0px;}
+	100%{ width:200px; left:-50px;}	
+}
+
+
+
+.bar3{
+	position: relative;
+}
+
+.orglink:hover .bar3{
+	animation: bar3ani 0.6s forwards linear;
+}
+
+@keyframes bar3ani{
+	0%{ width:100px; left:0px;}
+	100%{ width:200px; left:-50px;}	
+}
+
+
+/*--animationstuff--*/
+

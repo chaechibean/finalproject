@@ -1,0 +1,209 @@
+body,html{
+	height:100%;
+	width:100%;
+
+}
+body{
+	
+	background-color:#B4DBFF;
+	font-family:Karla;
+}
+
+.top {
+	width: 1200px;
+	position: fixed;
+	left: 50%;
+	top: 0px;
+	margin-left: -600px;
+	z-index: 9;
+	background: linear-gradient(to bottom, #06069b 0%,#06069b 37%,#06069b 37%,#4591dd 39%,#4591dd 39%,#4591dd 72%,#deeefd 72%,#deeefd 100%);
+}
+
+.logo{
+	width:100px;
+	height:100px;
+	margin-left:140px;
+	margin-bottom:50px;
+	margin-top:30px;
+}
+
+.navText{
+	float:right;
+	width: 800px;
+
+}
+
+.width180{
+	float:right;
+	text-align:center;
+	color:white;
+	font-family:Karla;
+	font-size:20pt;
+	font-weight:bold;
+	width: 180px;
+	margin-left: 30px;
+	margin-top:50px;
+}
+.navAnimals{
+	width:120px;
+}
+.currentpage{
+	width:50px;
+	height:10px;
+
+	background-color:white;
+
+	margin-left:35px;
+	margin-top:12px;
+}
+
+
+
+/*antarctic Img*/
+.antarcticImg {
+	width: 1200px;
+	height: 600px;
+	position: absolute;
+	left: 50%;
+	top: -300px;
+	margin-left: -600px;
+	z-index: 1;
+}
+
+
+.antTitle{
+	position:relative;
+}
+.antTitle{
+	font-size:100pt;
+	color:white;
+	margin-top:300px;
+}
+
+.antSubtext{
+	font-size:20pt;
+	color:white;
+	position:relative;
+	top:350px;
+}
+
+.anthead{
+	position:relative;
+	top:500px;
+}
+
+.AntarcticaImg{
+	width:1200px;
+	margin-top:-200px;
+}
+/*--bodywhitebox--*/
+.bodyBox{
+	background-color:white;
+	width:1200px;
+	height:1100px;
+	position: absolute;
+	left: 50%;
+	margin-left:-600px;
+	top:800px;
+
+}
+
+.border {
+	width: 1100px;
+	height: 1000px;
+	border: solid #B4DBFF 8px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-550px, -500px);
+	padding-top: 50px;
+	padding-left:100px;
+	padding-right:100px;
+	box-sizing: border-box;
+}
+
+.miniheader{
+	color:#3E4E77;
+	font-weight: bold;
+	font-size:30pt;
+}
+
+.adelie{
+	margin-left:500px;
+	position:relative;
+}
+
+.adelimg{
+	position:relative;
+	top:-190px;
+	left:-500px;
+	width:400px;
+}
+
+.emimg{
+	position:relative;
+	top:-200px;
+	left:500px;
+	width:400px;
+	margin:0px;
+}
+
+.emheader{
+	height:250px;
+}
+
+/*--hover on page animation for world--*/
+.globebar{
+	position:relative;
+	left:85px;
+	top:12px;
+	background-color:white;
+}
+
+.globalwarming:hover .globebar{
+	animation:globebar 0.5s forwards linear;
+}
+
+@keyframes globebar{
+	0%{opacity:0; height:10px; width:0px; left:85px; top:12px;}
+	100%{opacity:1; height:10px; width:65px; left:60px; top:12px;}
+}
+/*--end of hover for around globe--*/
+
+
+/*--hover on page animation for organizations--*/
+.orgbar{
+	position:relative;
+	left:85px;
+	top:12px;
+	background-color:white;
+
+
+}
+	
+.helporg:hover .orgbar{
+	animation: orgbar 0.5s forwards linear;
+}
+
+@keyframes orgbar{
+	0%{opacity:0; height:10px; width:0px; left:85px; top:12px;}
+	100%{opacity:1; height:10px; width:65px; left:60px; top:12px;}
+}
+/*--end of hover for orgnaizations--*/
+/*--paral--*/
+#stage{
+	position:relative;
+	top:1800px;
+	left:-200px;
+	width:1600px;
+	height:300px;
+	overflow:hidden;
+}
+
+.bottomice{
+	position:relative;
+	width:1800px;
+	top:50px;
+	left:-300px;
+
+}

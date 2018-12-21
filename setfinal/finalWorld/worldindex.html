@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--css-->
+		<link rel="stylesheet" href="worldcss/worldcss.css">
+		<!--js-->
+		<script type="text/javascript" src="worldjs/jquery-3.3.1.min.js"></script>
+			<script type="text/javascript" src="worldjs/parallax.js"></script>
+		<!--font-->
+		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	</head>
+	<body>
+		<div class="top">
+			<a href="../index.html"><img class="logo" src="worldimg/PENGUINLOGO.svg"></a>
+			<div class="navText">
+				<a href="../finalOrg/orgindex.html">	
+					<div class="width180 helporg">
+						Helpful	Organizations
+							<div class="orgbar"></div>
+					</div>
+					<div class="width180">Global Warming
+						<div class="currentpage"></div>
+					</div>
+				</a>
+				<a href="../finalAntartic/antarcticAnimals.html">
+					<div class="navAnimals width180 antanimal">
+						Antarctic Animals
+							<div class="antanibar"></div>
+					</div>
+				</a>
+			</div>
+		</div><!--end of nav bar-->
+		<div class="bodyBox">
+			<div class="border">
+				<img class="globeimg" src="worldimg/globeicon.png"/><!--globeimg-->
+				<div class="globeNorthpole">
+					<p >At the North Pole</p>
+						<div class="northpolehover">
+						</div>
+					</p>
+					<div class="northpoleline"></div>
+				</div>
+				<div class="globeasia">	
+					<p>At South and <br>Southeast Asia
+						<div class="asiahover"></div>
+					</p>
+					<div class="asialine"></div>
+				</div>
+				<div class="globeaus">
+					<p>
+						At Austrailia
+						<div class="aushover"></div>
+					</p>
+					<div class="ausline"></div>
+				</div>
+				<div class="globeaf">
+					<p>
+						At Africa
+						<div class="afhover"></div>
+					</p>
+					<div class="afline"></div>
+				</div>
+				<!--redhighlights-->
+				<div class="text">
+					<h1>Effect on the World</h1>
+					<p class="subinfo">Global warming effects through out the world and destroies the environment and habitats of animals leading to endangering them.  </p>
+					<h2>At the North Pole</h2>
+					<ul>
+						<li>Relase of carbon within ice when melting, leading to faster temperature increase</li> 
+						<li>Endangered polar bears </li>
+						<li>Sea level rising due to ice melting</li>
+						<li>Chances of shutdown of ocean circulation</li>
+					</ul>
+					<h2>At South and Southeast Asia</h2>
+					<ul>
+						<li>Increased flooding</li>
+						<li>Countries that are islands are affected greatly with flooding and decrease of fresh water avalability</li>
+						<li>Melting of glaciers, leading to increased chance of avalanches</li>
+						<li>Change in hydrological has lead to increased diarrhoeal disease</li>
+					</ul>
+					<h2>At Austrailia</h2>
+					<ul>
+						<li>Inceased brush fires and droughts</li>
+						<li>Bleaching of coral reefs</li>
+						<li>Intensified weather conditions such as floods, heatwaves,  etc.</li>
+						<li>Intensified storms and cylones at coast due to sea level rising</li>
+					</ul>
+					<h2>At Africa</h2>
+					<ul>
+						<li>Decrease of water</li>
+						<li>Increase of desert areas</li>
+						<li>Affect on agriculute and food production</li>
+						<li>Shift of diseases including Malaria</li>
+
+					</ul>
+				</div>
+			</div> <!-- end of border -->
+		</div> <!-- end of bodyBox -->
+		<div id="stage"><!--startofparal-->
+			<img data-depth="0.6" class="bottomice" src="worldimg/bottomice.svg"/>
+		</div>
+		<script>
+			var scene = $('#stage').get(0);
+		var parallaxInstance = new Parallax(scene, {
+			relativeInput: true,});
+		</script>
+		<!--endofparal-->
+	</body>
+</html>

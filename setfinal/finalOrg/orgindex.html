@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--css-->
+		<link rel="stylesheet" href="orgcss/orgcss.css">
+		<!--js-->
+			<script type="text/javascript" src="orgjs/jquery-3.3.1.min.js"></script>
+			<script type="text/javascript" src="orgjs/parallax.js"></script>
+		<!--font-->
+		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+		<title>Penguins on Melting Ice</title>
+	</head>
+	<body>
+		<div class="top">
+			<a href="../index.html"><img class="logo" src="orgimg/PENGUINLOGO.svg"></a>
+			<div class="navText">
+					<div class="width180">Helpful Organizations
+						<div class="currentpage">
+						</div>
+					</div>
+				<a href="../finalWorld/worldindex.html">
+					<div class="width180 globalwarming">Global Warming
+						<div class="globebar"></div>
+					</div>
+				</a>
+				<a href="../finalAntartic/antarcticAnimals.html">	
+					<div class="navAnimals width180 antanimal">Antarctic Animals
+						<div class="antanibar"></div>
+					</div>
+				</a>
+			</div>
+		</div><!--endofnavbar-->
+		<!--witeboxandborder-->
+		<div class="bodyBox">
+			<div class="border">
+				<div class="CCL">
+					<a href="https://citizensclimatelobby.org/">
+					<div class="CCLlogo">
+						Citizen's Climate Lobby
+					</div>
+				</a>
+				
+					<div class="CCLinfo">
+						Non-Partisan international group that tries to influence the climate policy by contacting with elected representetives. 
+					</div>
+				</div>
+				<div class="sbag">
+				<a href="https://sandbag.org.uk/">
+					<div class="sbaglogo">
+						Sandbag
+					</div>
+				</a>
+					<div class="sbaginfo">
+						Community interest company, a company that uses profits for the greater good, based at England. Its mission is to bring up the topic and make the issue noticable.
+
+					</div>
+				</div>
+				<div class="CWR">
+				<a href="https://www.rmi.org/carbon-war-room/">
+					<div class="CWRlogo">
+						Carbon War Room
+					</div>
+				</a>
+					<div class="CWRinfo">
+						International non governmental organization that focuses on low-carbon economy.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="stage"><!--startofparal-->
+			<img data-depth="0.6" class="bottomice" src="orgimg/bottomice.svg"/>
+		</div>
+		<script>
+			var scene = $('#stage').get(0);
+		var parallaxInstance = new Parallax(scene, {
+			relativeInput: true,});
+		</script>
+		<!--endofparal-->
+	</body>
+</html>
